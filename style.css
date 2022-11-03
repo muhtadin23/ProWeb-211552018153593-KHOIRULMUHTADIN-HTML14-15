@@ -1,0 +1,92 @@
+* {margin:0}
+  
+body {
+            font-family:arial,segoe ui;   
+}
+  
+.wrap {
+            width:1000px;
+            margin:0 auto;          
+} 
+             
+.header {
+            width:auto;
+            background:lightblue;
+            padding:20px;
+            color:#fff;
+            text-shadow: 2px 2px 7px #111111;
+}   
+    .clear {clear:both}   
+     
+.nav {
+            width:auto;
+            background:darkgray;
+            padding:5px 20px;
+            color:yellow;
+}    
+  
+.main {
+            width:100%;
+            background:#6F9;
+}
+  
+   
+  
+.content {
+            float:left;
+            width:66%;
+            padding:2%; 
+            background:lightgray;
+            min-height:400px;
+}
+  
+.sidebar {
+            float:right;
+            width:23%;
+            padding:2%;
+  
+}          
+  
+.clear {clear:both}
+  
+.footer {
+            width:auto;
+            height:auto;
+            padding:5px 10px;
+            background:darkgray;
+            color:#fff;
+            text-shadow: 1px 1px 3px #111111;
+  
+}
+
+p{
+            text-indent: 5%;
+}
+
+a:link {
+            color: red;
+}
+
+a:hover {
+            color:pink;
+}
+
+a:active {
+            color:orange;
+}
+a:link {
+            color: red;
+}
+a:visited {
+color:blue;
+}
+
+p::first-letter {
+            font-size: 15px;
+            font-weight: bold;
+            color: darkgreen;
+}
+
+.skyblue-bg {
+            background-color: skyblue;
+}
